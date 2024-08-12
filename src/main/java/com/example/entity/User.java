@@ -14,7 +14,6 @@ import org.jetbrains.annotations.NotNull;
 @AllArgsConstructor
 public class User {
 
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
@@ -22,8 +21,5 @@ public class User {
     String name;
     String password;
 
-    public User(){
-
-    }
-
+    public User(){}
 }
