@@ -1,11 +1,11 @@
-package com.example.requestBody;
+package com.example.domain.User.requestBody;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.Getter;
-import lombok.NonNull;
 
 @Getter
-public class SinUpRequestBody {
+
+public class UserRequestBody {
     @NotBlank
     String name;
 

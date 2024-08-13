@@ -1,4 +1,4 @@
-package com.example.entity;
+package com.example.domain.User.entity;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
@@ -12,6 +12,7 @@ import org.jetbrains.annotations.NotNull;
 @Entity
 @Builder
 @AllArgsConstructor
+@Table(name = "gy_user")
 public class User {
 
     @Id
